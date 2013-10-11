@@ -1,10 +1,10 @@
-body{ 
+body{
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: #CF6;
 	font-size: 12px;
-	line-height: 1.6em; 
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+	font-family: "Courier New", Courier, monospace;
 	background-color: #7e7c57;
 	background-image:  url(images/templatemo_body.jpg);
 	background-position: top;
@@ -22,13 +22,24 @@ ul, li {
 
 h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
 h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
-h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 }
+h2 {
+	font-size: 24px;
+	margin: 0 0 25px;
+	padding: 5px 0;
+	color: #FFF;
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
 h4 { font-size: 16px; margin: 0 0 10px; padding: 0; }
 h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
 h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
 
-p { padding: 0; margin: 0 0 15px 0 }
+p {
+	padding: 0;
+	margin: 0 0 15px 0;
+	font-family: "Lucida Console", Monaco, monospace;
+}
 
 .clear {
 	clear: left;
@@ -185,7 +196,10 @@ img { margin: 0; padding: 0; border: none }
 .section  a.next { right: 5px; padding-right: 30px; text-align: right;  background: url(images/nav_btn_next.png)  right center no-repeat }
 .section  a.page_nav_btn:hover { color: #dfd628 }
 
-#content .section h1 { padding-top: 30px }
+#content .section h1 {
+	padding-top: 30px;
+	font-weight: bold;
+}
 
 #content .box_content h2 { color: #fff; font-size: 18px; margin-bottom: 5px; font-weight: 700 }
 
@@ -287,4 +301,29 @@ img { margin: 0; padding: 0; border: none }
 	padding: 5px 10px; 
 	margin: 0px;
 	font-family: Arial, Helvetica, sans-serif;
+}
+#templatemo_wrapper #templatemo_header #site_title #logo {
+	font-size: 38px;
+}
+#templatemo_wrapper #templatemo_main #content #services .half.left p em {
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: none;
+	font-variant: normal;
+	font-weight: bold;
+}
+#templatemo_wrapper #templatemo_main #content #news .half.right p em {
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+#templatemo_wrapper #templatemo_main #content #news .half.left p em {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
 }
