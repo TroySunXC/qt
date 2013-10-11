@@ -17,7 +17,17 @@
     
     <link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#dkzl").click(function(){
+  $("#dk1").fadeToggle("slow");
+  $("#dk2").fadeToggle("slow");
+  $("#dk3").fadeToggle("slow");
+  });
+});
 
+</script>
 
 </head> 
 <body>
@@ -87,7 +97,7 @@
                 
             </div>
             <div class="half right">
-                 <p align="justify"><em>网络也许对于大多数人来说这词语十分陌生，但它已如雨后春笋般在网络金融市场占据着越来越重要的地位。据北京网信无忧负责人介绍，P2P网络借款，指个人与个人间的小额借贷交易，即，由具有资质的网站(第三方公司)作为中介平台，借款人在平台发放借款标，投资者进行竞标向借款人放贷的行为。网贷的企业也已在这场互联网金融的浪潮中受益，并开始探索互联网金融下新的生存路径和发展模式。P2P网络借贷模式使传统银行难以覆盖的借款人充分享受贷款的高效与便捷。一方面，为中小微金融创造了良好的融资渠道。另一方面，P2P网络借贷为个人的投资拓宽了渠道，促使社会闲散资金的使用率和收益率得到提高，促进了国家的金融、经济的发展。同时，促进整个社会个人信用体系的建设。</em></p>
+                 <p align="justify"><em>网络也许对于大多数人来说这词语十分陌生，但它已如雨后春笋般在网络金融市场占据着越来越重要的地位。据北京网信无忧负责人介绍，P2P网络借款，指个人与个人间的小额借贷交易，即，由具有资质的网站作为中介平台，借款人在平台发放借款标，投资者进行竞标向借款人放贷的行为。网贷的企业也已在这场互联网金融的浪潮中受益，并开始探索互联网金融下新的生存路径和发展模式。P2P网络借贷模式使传统银行难以覆盖的借款人充分享受贷款的高效与便捷。一方面，为中小微金融创造了良好的融资渠道。另一方面，P2P网络借贷为个人的投资拓宽了渠道，促使社会闲散资金的使用率和收益率得到提高，促进了国家的金融、经济的发展。同时，促进整个社会个人信用体系的建设。</em></p>
             </div>
             <a href="#index" class="home_btn">主页</a> 
             <a href="#index" class="page_nav_btn previous">Previous</a>
@@ -102,9 +112,14 @@
             </div>
             
             <div class="half right">
-            	<ul class="list_bullet">
-                    <li>贷款流程</li>
-                    <li>贷款种类</li>
+            	<ul class="list_bullet" >
+                    <li><a href="images/grzfdk.png">贷款流程</a></li>
+                    <li>
+                    <ul id="dkzl"><a href="#">贷款种类</a>
+                    <li id="dk1" style="display:none">个人助学贷款</li>
+                    <li id="dk2" style="display:none">个人汽车贷款</li>
+                    <li id="dk3" style="display:none">个人住房贷款</li>
+                    </ul></li>
                     <li><a href="#">如何偿还贷款</a></li>
                      <li><a href="#">申请的方法</a></li>
                    <li>贷款的发放</li>
@@ -120,8 +135,8 @@
         </div> 
         <div class="section" id="contact"> 
             <ul id="gallery_wrapper">
-                <li><a href="images/gallery/01-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/01.jpg" alt="image" /></a></li>
-                <li><a href="images/gallery/02-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/02.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/01-l.jpg" rel="lightbox[gallery]">123</a></li>
+                <li><a href="images/gallery/02-l.jpg" rel="lightbox[gallery]">345</a></li>
                 <li><a href="images/gallery/03-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/03.jpg" alt="image" /></a></li>
                 <li><a href="images/gallery/04-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/04.jpg" alt="image" /></a></li>
                 <li><a href="images/gallery/05-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/05.jpg" alt="image" /></a></li>
